@@ -1,0 +1,23 @@
+[
+    {
+        "nombre": "hector",
+        "apellido": "rodriguez",
+        "edad": "20",
+        "paisesVisitados": [
+            "francia, españa, dinamarca, andorra"
+        ],
+        "casado": false
+    
+    },
+
+
+    {
+        "nombre": "juan",
+        "apellido": "rodriguez",
+        "edad": "40",
+        "paisesVisitados": [
+            "portugal, españa, italia, marruecos"
+        ],
+        "casado": true
+    }
+]
