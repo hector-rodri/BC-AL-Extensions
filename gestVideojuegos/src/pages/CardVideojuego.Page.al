@@ -1,10 +1,9 @@
-page 50152 "Ficha Usuario"
+page 50154 "Ficha Videojuego"
 {
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
-    SourceTable = Usuarios;
-    Editable = true;
+    SourceTable = Videojuegos;
     
     layout
     {
@@ -14,35 +13,26 @@ page 50152 "Ficha Usuario"
             {
                 field(ID; rec.ID)
                 {
-                    Editable = false;
-                    
                 }
-
-                field(Genero; rec.Genero)
+                field(Nombre; rec.Nombre)
                 {
                 }
-
-                field("Nombre Completo"; rec."Nombre Completo")
+                field("Fecha Lanzamiento"; rec."Fecha Lanzamiento")
                 {
                 }
-
-                field(Correo; rec.Correo)
+                field(Desarrollador; rec.Desarrollador)
                 {
                 }
-
-                field(Telefono; rec.Telefono)
+                field(Editor; rec.Editor)
                 {
                 }
-
-                field("Fecha de Nacimiento"; rec."Fecha de Nacimiento")
+                field(Precio; rec.Precio)
                 {
                 }
-
-                field("Cotraseña"; rec."Cotraseña")
+                field("Categoría Principal"; rec."Categoría Principal")
                 {
                 }
             }
         }
     }
-    
 }

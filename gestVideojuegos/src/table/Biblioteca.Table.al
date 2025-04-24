@@ -46,33 +46,4 @@ table 50153 Biblioteca
             Clustered = true;
         }
     }
-    
-    fieldgroups
-    {
-        // Add changes to field groups here
-    }
-    
-    var
-        myInt: Integer;
-    
-    trigger OnInsert()
-    begin
-        rec."Fecha adquisición" := Today;
-    end;
-    
-    trigger OnModify()
-    begin
-        
-    end;
-    
-    trigger OnDelete()
-    begin
-        
-    end;
-    
-    trigger OnRename()
-    begin
-        
-    end;
-    
 }
