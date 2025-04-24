@@ -1,10 +1,9 @@
-page 50155 "Lista Bibliotecas"
+page 50156 "Lista Comentarios"
 {
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Administration;
-    SourceTable = Biblioteca;
-
+    SourceTable = Comentarios;
     
     layout
     {
@@ -12,22 +11,23 @@ page 50155 "Lista Bibliotecas"
         {
             repeater(GroupName)
             {
-                field("ID usuario"; Rec."ID usuario")
+                field(Id; Rec.Id)
                 {
                 }
-                field("Id videojuego"; Rec."Id videojuego")
+                field(Usuario; Rec.Usuario)
                 {
                 }
-                field("Nombre Usuario"; Rec."Nombre Usuario")
+                field(Videojuego; Rec.Videojuego)
                 {
                 }
-                field("Nombre videojuego"; Rec."Nombre videojuego")
+                field(Comentario; Rec.Comentario)
                 {
                 }
-                field("Fecha adquisicion"; Rec."Fecha adquisición")
+                field(Estrellas; Rec.Estrellas)
                 {
                 }
             }
         }
     }
+
 }
