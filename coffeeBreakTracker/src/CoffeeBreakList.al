@@ -39,4 +39,9 @@ page 50200 "Coffe Break List"
             }
         }
     }
+
+    trigger OnOpenPage()
+    begin
+        Message('RECORDATORIO: La pausa para el café es de 10 minutos');
+    end;
 }
