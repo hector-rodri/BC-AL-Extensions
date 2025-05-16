@@ -2,10 +2,10 @@ table 50200 "Coffe Break"
 {
     DataClassification = ToBeClassified;
     Caption = 'Coffe Break';
-    
+
     fields
     {
-        field(1;No; Integer)
+        field(1; No; Integer)
         {
             DataClassification = ToBeClassified;
             AutoIncrement = true;
@@ -35,9 +35,15 @@ table 50200 "Coffe Break"
         {
             DataClassification = ToBeClassified;
             Caption = 'Hora Fin';
+
+            trigger OnValidate()
+            begin
+                if ("Hora Fin" - "Hora Inicio") > 600 then 
+                    Error('La pausa para el café no puede durar más de 10 minutos');
+            end;
         }
     }
-    
+
     keys
     {
         key(Key1; No)
@@ -45,5 +51,4 @@ table 50200 "Coffe Break"
             Clustered = true;
         }
     }
-    
 }
