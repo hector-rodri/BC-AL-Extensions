@@ -13,11 +13,11 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "26.0.0.0",
+  "application": "25.5.30849.31564",
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 50200,
+      "to": 50249
     }
   ],
   "resourceExposurePolicy": {
@@ -25,8 +25,9 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
   },
-  "runtime": "15.0",
+  "runtime": "14.0",
   "features": [
     "NoImplicitWith"
   ]
 }
+
