@@ -1,6 +1,6 @@
 page 50200 "Coffe Break List"
 {
-    PageType = List;
+    PageType = ListPart;
     SourceTable = "Coffe Break";
     ApplicationArea = All;
     UsageCategory = Administration;
